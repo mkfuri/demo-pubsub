@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.example
+testFramework: spock
+sourceLanguage: java
+buildTool: gradle
+features: [annotation-api, app-name, gcp-cloud-trace, gcp-pubsub, graalvm, gradle, http-client, java, java-application, logback, lombok, management, micrometer, micrometer-stackdriver, netty-server, readme, shade, spock, yaml]

@@ -1,0 +1,13 @@
+micronaut:
+  application:
+    name: demo
+  metrics:
+    enabled: false
+    export:
+      stackdriver:
+        enabled: true
+        projectId: ${STACKDRIVER_PROJECT_ID}
+        step: PT1M
+
+gcp:
+  project-id: test
